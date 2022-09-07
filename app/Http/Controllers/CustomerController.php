@@ -122,7 +122,10 @@ class CustomerController extends Controller
                         $db = DB::table('orders')
                 ->join('tbl_customer', 'orders.customer_id', '=', 'tbl_customer.customer_id')
                 ->orderBy('order_day')
-                ->where('orders.order_status', 2)->where('tbl_customer.customer_phone', 'like', '%'.$search.'%' )->orWhere('orders.order_id', 'like', '%'.$search.'%')->get();
+                ->where('orders.order_status', 2)
+                ->where('tbl_customer.customer_phone', 'like', '%'.$search.'%' )
+                ->orWhere('orders.order_id', 'like', '%'.$search.'%')
+                ->count();
                         return view('admin.order_manager_successfully', compact('db'));
                     }
                 }

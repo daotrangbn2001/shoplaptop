@@ -92,7 +92,7 @@
 </head><!--/head-->
 <body style="background-color: #FFFFFF;">
     <header class="" id="header"><!--header-->
-        <div class="header_top" style="position: fixed;z-index: 13;width: 100%; padding-bottom: 5px"><!--header_top-->
+        <div class="header_top" style="position: fixed;z-index: 13;width: 100%; padding-bottom: 5px; height:80px"><!--header_top-->
             <div class="container">
                 <div class="row">
                     <div class="col-sm-6">
@@ -156,7 +156,7 @@
             </div>
         </div><!--/header_top-->
         <br><br>
-        <div class="header-middle" style="margin-top: 10px; background-color:#FE980F; height: 50px">
+        <div class="header-middle" style="margin-top: 30px; background-color:#FE980F; height: 50px">
             <div class="container" style="height: 50px;">
                 <ul id="header_bar">
                     <li><a href="{{url('/trang-chu')}}"  class="active" style="color: black">Trang chủ</a></li>

@@ -78,7 +78,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                 <b class="caret"></b>
             </a>
             <ul class="dropdown-menu extended logout">
-                <li><a href="{{URL::to('/admin-manager')}}"><i class="fa fa-key"></i> Quản lý Admin</a></li>
+                <li><a href="{{URL::to('/admin-manager')}}"><i class="fa fa-male"></i> Quản lý Admin</a></li>
                 <li><a href="{{URL::to('/logout')}}"><i class="fa fa-key"></i> Đăng Xuất</a></li>
             </ul>
         </li>
@@ -115,7 +115,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                 </li>
                 <li class="sub-menu">
                     <a href="javascript:;">
-                        <i class="fa fa-book"></i>
+                        <i class="fa fa-bar-chart"></i>
                         <span>Thống kê</span>
                     </a>
                     <ul class="sub">
@@ -127,7 +127,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                 </li>
                 <li class="sub-menu">
                     <a href="javascript:;">
-                        <i class="fa fa-book"></i>
+                        <i class="fa fa-pagelines"></i>
                         <span>Danh mục sản phẩm</span>
                     </a>
                     <ul class="sub">
@@ -137,7 +137,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                 </li>
                 <li class="sub-menu">
                     <a href="javascript:;">
-                        <i class="fa fa-book"></i>
+                        <i class="fa fa-product-hunt"></i>
                         <span>Sản phẩm</span>
                     </a>
                     <ul class="sub">
@@ -147,7 +147,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                 </li>
                 <li class="sub-menu">
                     <a href="javascript:;">
-                        <i class="fa fa-book"></i>
+                        <i class="fa fa-male"></i>
                         <span>Khách hàng</span>
                     </a>
                     <ul class="sub">
@@ -170,7 +170,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
     </section>
 <!-- footer -->
 
-        <div class="footer" style="background: #626262; text-align: center ;position: fixed;bottom: 0;width:100%">
+        <div class="footer" style="background: #626262;padding:10px; text-align: center;width:100%;bottom: 0px; position: fixed">
 
             <p style="padding-right: 200px" >Được phát triển bởi Sinh Viên Trang- Vũ  K11-BTECC01 Học viện Cộng nghệ Thông tin BKACAD </p>
 

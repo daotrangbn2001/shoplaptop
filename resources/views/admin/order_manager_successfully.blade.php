@@ -20,7 +20,7 @@
         <p style="text-align: center; background: #ddede0; line-height:50px;"><b>Tổng số đơn hàng đã giao:
                 @foreach ($db as $item)
                     <?php
-                    $count = count($db);
+                        $count = count($db);
                     ?>
                 @endforeach
                 <?php
